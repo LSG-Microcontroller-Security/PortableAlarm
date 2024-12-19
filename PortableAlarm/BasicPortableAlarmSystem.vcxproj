@@ -202,6 +202,12 @@
     <ClInclude Include="__vm\.BasicPortableAlarmSystem.vsarduino.h" />
     <ClInclude Include="__vm\.PortableAlarm.vsarduino.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Eagle\ChargeStepUpBoard.brd" />
+    <None Include="..\Eagle\ChargeStepUpBoard2.brd" />
+    <None Include="..\Eagle\PortableAlarmSystem.brd" />
+    <None Include="..\Eagle\PortableAlarmSystem2.brd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

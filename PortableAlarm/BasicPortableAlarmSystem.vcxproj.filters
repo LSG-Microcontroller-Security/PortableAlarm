@@ -5,8 +5,8 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="_library">
-      <UniqueIdentifier>{e3aeb39f-9db4-4ffb-8811-e9929fa18ca6}</UniqueIdentifier>
+    <Filter Include="Eagle">
+      <UniqueIdentifier>{ae09fb39-de21-44ce-8e7b-5fd0b15484ac}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -22,5 +22,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PortableAlarmSystem.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Eagle\ChargeStepUpBoard.brd">
+      <Filter>Eagle</Filter>
+    </None>
+    <None Include="..\Eagle\ChargeStepUpBoard2.brd">
+      <Filter>Eagle</Filter>
+    </None>
+    <None Include="..\Eagle\PortableAlarmSystem.brd">
+      <Filter>Eagle</Filter>
+    </None>
+    <None Include="..\Eagle\PortableAlarmSystem2.brd">
+      <Filter>Eagle</Filter>
+    </None>
   </ItemGroup>
 </Project>
