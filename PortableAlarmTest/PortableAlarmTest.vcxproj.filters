@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="PortableAlarmTest.ino" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="__vm\.PortableAlarmTest.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PortableAlarmTest.ino" />
   </ItemGroup>
 </Project>
